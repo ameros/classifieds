@@ -11,14 +11,14 @@ _Classified Ads_ is sample domain. First context is _Realestate_. So:
 
 ## Then layers
 
+Persistence:
+- com.example.classifieds.realestate.repositories
+
 Use Cases:
 - com.example.classifieds.realestate.commands
 
 Interactors:
 - com.example.classifieds.realestate.handlers 
-
-Persistence:
-- com.example.classifieds.realestate.repositories
 
 ## Abstraction first
 - Repositories in the domain are interfaces
