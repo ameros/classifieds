@@ -24,10 +24,10 @@ _Interactors_:
 - com.example.classifieds.realestate.handlers 
 
 ## Abstraction first
-- Repositories in the domain are *interfaces*
-- Handlers in use cases are *interfaces*
+- Repositories in the domain are **interfaces**
+- Handlers in use cases are **interfaces**
 
 ## Then dependencies
-- Persistence implements domain repositories
-- Interactors are implementation of use cases; depend on domain but not on persistence
-- Each detail (implementation) can be considered as *runtime* dependency
+- _Persistence_ implements domain repositories
+- _Interactors_ are implementation of use cases; depend on domain but not on persistence
+- Each detail (implementation) can be considered as **runtime** dependency
