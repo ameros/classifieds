@@ -30,4 +30,4 @@ _Interactors_:
 ## Then dependencies
 - _Persistence_ implements domain repositories
 - _Interactors_ are implementation of use cases; depend on domain but not on persistence
-- Each detail (implementation) can be considered as **runtime** dependency
+- Each detail (implementation) _can_ be considered as **runtime** dependency
