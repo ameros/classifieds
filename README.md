@@ -1,5 +1,5 @@
 # Yet Another Architecture Clean Up
-slices, clean architecture, runtime dependencies example
+slices, clean architecture, runtime dependencies (inversion & || externalization) example
 
 ## Slices first
 
