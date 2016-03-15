@@ -11,6 +11,9 @@ _Classified Ads_ is sample domain. First context is _Realestate_. So:
 
 ## Then layers
 
+Domain:
+- com.example.classifieds.realestate
+
 Persistence:
 - com.example.classifieds.realestate.repositories
 
