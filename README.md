@@ -34,4 +34,4 @@ _Interactors_:
 ## Experiment
 - Each detail (implementation) _can_ be considered as **runtime** dependency for higher level
 - Infrastructure _can_ be considered as _orbit_ with _satellites_
-- Layers are glued with help of _satellites_
+- Layers are _glued_ with help of satellites into application
