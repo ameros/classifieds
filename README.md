@@ -11,16 +11,20 @@ _Classified Ads_ is sample domain. First context is _Realestate_. So:
 
 ## Then layers
 
-Commands:
+Use Cases:
 - com.example.classifieds.realestate.commands
 
-Handlers:
+Interactors:
 - com.example.classifieds.realestate.handlers 
 
-Repositories:
+Persistence:
 - com.example.classifieds.realestate.repositories
 
 ## Abstraction first
-
+- Repositories in the domain are interfaces
+- Handlers in use cases are interfaces
 
 ## Then dependencies
+- Persistence implements domain repositories
+- Interactors are implementation of use cases; depend on domain but not on persistence
+- Each detail (implementation) can be considered runtime dependency
