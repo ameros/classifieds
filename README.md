@@ -30,4 +30,4 @@ Interactors:
 ## Then dependencies
 - Persistence implements domain repositories
 - Interactors are implementation of use cases; depend on domain but not on persistence
-- Each detail (implementation) can be considered runtime dependency
+- Each detail (implementation) can be considered as runtime dependency
